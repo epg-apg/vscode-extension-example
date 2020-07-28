@@ -27,7 +27,7 @@ jobs:
     - run: npm ci
       
     - name: Compile package
-      run: npm run package
+      run: vsce package
       
     - name: print vsix path
       run: |
