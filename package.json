@@ -1,0 +1,38 @@
+{
+    "name": "epg-vscode-pack",
+    "displayName": "EPG extension pack",
+    "description": "Development environment in the Ehrhardt+Partner Group.",
+    "version": "0.0.1",
+    "publisher": "epg",
+    "galleryBanner": {
+        "color": "#247963",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://de06sr173.epg.global/ged_public/epg-vscode-pack.git"
+    },
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "ms-vscode.cpptools",
+        "ms-python.python",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "atlassian.atlascode",
+        "coenraads.bracket-pair-colorizer",
+        "aaron-bond.better-comments",
+        "eriklynd.json-tools",
+        "dotjoshjohnson.xml",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-mermaid",
+        "iancooper.code-zpl"
+    ],
+    "devDependencies": {
+        "vsce": "^1.77.0"
+    }
+}

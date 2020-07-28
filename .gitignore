@@ -1,0 +1,8 @@
+# VS Code workspace
+.vscode/
+
+# NPM folder
+node_modules/
+
+# Installable extensions from vsce package
+*.vsix
